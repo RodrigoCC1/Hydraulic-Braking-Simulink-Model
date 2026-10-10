@@ -8,7 +8,7 @@ class SistemaFH{
     double calcularFuerzaSalida(double Fin) const;
 
     private:
-    const double GT;
+    double GT;
 };
 
 #endif
