@@ -1,0 +1,6 @@
+# Caché y temporales de MATLAB/Simulink
+slprj/
+*.slxc
+*.asv
+*.autosave
+*.mat
