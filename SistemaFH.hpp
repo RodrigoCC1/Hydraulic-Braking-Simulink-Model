@@ -3,12 +3,17 @@
 
 class SistemaFH{
     public:
-    SistemaFH(double A1, double A2, double L1, double L2);
+    SistemaFH(double A1, double A2, double L1, double L2, double tau, double dt);
 
-    double calcularFuerzaSalida(double Fin) const;
+    double actualizarEstado(double Fin);
+
+    double getFuerzaSalida() const;
 
     private:
-    double GT;
+    const double GT;
+    const double tau;
+    const double dt;
+    double Fout_actual;
 };
 
 #endif
