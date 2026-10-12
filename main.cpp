@@ -3,11 +3,11 @@
 #include <cmath>
 
 int main(){
-    constexpr double Fin = 10.0;
-    constexpr double A1 = 2.0;
-    constexpr double A2 = 4.0;
-    constexpr double L1 = 5.0;
-    constexpr double L2 = 9.0;
+    constexpr double Fin = 200.0;
+    constexpr double A1 = 3.0;
+    constexpr double A2 = 12.0;
+    constexpr double L1 = 30.0;
+    constexpr double L2 = 7.5;
 
     constexpr double tau = 0.1;
     constexpr double dt = 0.001;
